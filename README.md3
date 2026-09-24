@@ -1,0 +1,25 @@
+# Smart E-Waste Management System
+
+A Flask + SQLite web application for managing electronic waste.
+
+## Features
+- E-waste registration
+- Category and condition management
+- Reuse / Repair / Recycle recommendations
+- Collection requests
+- Dashboard statistics
+- Recycling guide
+- SQLite database
+- Responsive UI
+
+## Technologies
+HTML, CSS, JavaScript, Python, Flask, SQLite
+
+## Run
+```bash
+pip install -r requirements.txt
+python app.py
+```
+Open `http://127.0.0.1:5000`
+
+The `ewaste.db` database is created automatically.
