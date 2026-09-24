@@ -1,0 +1,1 @@
+function toggleMenu(){const nav=document.getElementById("navLinks");if(nav)nav.classList.toggle("show");}document.addEventListener("DOMContentLoaded",function(){const d=document.getElementById("preferredDate");if(d)d.min=new Date().toISOString().split("T")[0];});
